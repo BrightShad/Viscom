@@ -1,6 +1,4 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import caveBg from "C:/Users/ishan/.cursor/projects/c-Users-ishan-OneDrive-Desktop-test-folder-madhya-caves-explorer-main/assets/c__Users_ishan_AppData_Roaming_Cursor_User_workspaceStorage_aced81d2492bf178ae03370c736b2399_images_image-bfe040ce-55fb-417f-86fd-577e28afc21d.png";
-
 export const Route = createFileRoute("/about")({
   component: About,
 });
@@ -9,7 +7,6 @@ function About() {
   return (
     <main className="relative min-h-screen bg-background text-foreground flex flex-col items-center justify-center p-8">
       <div className="absolute inset-0 -z-10">
-        <img src={caveBg} alt="Cave background" className="h-full w-full object-cover opacity-35" />
         <div className="absolute inset-0 bg-stone-950/85" />
       </div>
 
