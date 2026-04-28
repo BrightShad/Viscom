@@ -34,7 +34,7 @@ function About() {
             <div>
               <h2 className="font-display text-3xl font-bold text-bone mb-2">The Team</h2>
               <p>
-                Ishan Krish Kumar, Pushkar, Akhilesh Gupta and Mukund Raghuraman conceived and built this project. A team of designers and developers at the convergence of technology and Indian culture.
+                Built by Ishan Krish Kumar, Pushkar, Akhilesh Gupta, and Mukund Raghuraman.
               </p>
             </div>
           </div>
